@@ -1,0 +1,80 @@
+ what is git ?
+->VCS is a tool that help to track changes in code.
+->free and open source 
+->fast and scalable
+->track the record and version of our project.
+->collaborate between different developer and multiple features.
+->git is a software that can be download on system.
+
+what is github ?
+->github is a website that allows developer to store and manage their code
+using git.
+->It is website to deploy project in form of repository.
+
+what is commit ?
+->Take a screenshot and track the changes.
+
+step 1) create repository manually from github website.
+eg:- github_tutorial add:- description and check on readme file.
+#========after creating repository multiple option are available============
+like code,issues,pull request,action,project,etc.
+
+step 2)setting up Git
+-> download Git and install into your pc
+->type the command 'git --version' after completing all set up.
+
+step 3)===== imporant step ===== Configuring Git
+->git config --global user.name "My Name"
+->git config --global user.email "aniketpanse12@gmail.com"
+->git config list.
+
+ symbol(~) == root directory of our system.
+ symbol(M) == The file is modified and need to add first then commit.
+ symbol(A) == The file is added to stage and ready to commit.
+ symbol(U) == untracked file i.e newly created file.that is not known by git
+
+ ==========================================================================
+| types of status in git. 4 types.
+|
+| 1)untracked :- new file that git doesn't track yet
+|
+| 2)modified :- changes in file.
+|
+| 3)staged :- file is ready to commit
+|
+| 4)unmodified :- after commiting the status is unchanged.
+|
+ ==========================================================================
+
+note:- untracked file and modified file can directly moved to staging area. 
+
+note:- we can save the modification of repository by using git. But everytime
+       we have to use the command in git.
+
+step 4)Open VScode
+->create empty folder at any location and open that same folder using VScode.
+->WE CAN ACCESS GIT FROM IT TYPE git --version in terminal of that folder path
+->================== CLONE AND STATUS COMMAND======================
+======================== IMPORTANT =======================
+1)CLONE :- cloning a github repository on local machine.
+           git clone <some-link>
+2)STATUS:- displays the state of the code
+           git status
+eg:- copy the link of github_tutorial repository.
+
+     paste the git clone https://github.com/Aniket-Dilip-Panse/github_tutorial.git command 
+     into the vscode terminal of that folder path.
+     
+     change the directory to github_tutorial using 'cd github_tutorial'
+      
+     git add <file_name> will add file to staging area of local system.
+     git commit -m "message" will commit the message to local system.
+ 
+     ======== MOST MOST MOST IMPORTANT MOST MOST MOST================
+     using 'git add <file_name>' and 'git commit -m "message"' we are
+     changing in local repository not on github repository.  
+    ==================================================================
+
+    ====TO SHOW CHANGES MADE ON LOCAL REPOSITORY INTO GITHUB REPOSITORY====
+   | USE " git push origin main "
+   |=======================================================================
