@@ -77,4 +77,32 @@ eg:- copy the link of github_tutorial repository.
 
     ====TO SHOW CHANGES MADE ON LOCAL REPOSITORY INTO GITHUB REPOSITORY====
    | USE " git push origin main "
-   |=======================================================================
+   |
+   |here origin is the name of repository and 
+   |main is the name of branch
+   =======================================================================
+
+eg:-2) The above example is how to clone github repository and perform action on it.
+
+Now we are going to learn how to create repository first into our local system and the push on github
+
+step 1):- create empty folder at any location and open that same folder using VScode.
+
+step 2):- open terminal and use git bash
+and check .git folder is created or not using ls -a if not then create using 'git init'.
+
+step 3):- create multiple file inside empty folder. like:- index.html,style.css,script.js
+
+step 4):- git add . and git commit -m "initial commit" but this command will not push
+          on github.
+
+step 5):- create empty repository on github
+without readme.md
+
+step 6):- git remote add origin <some-link>
+
+step 7):- To check the link git remote -v
+
+step 8):- To check branch git branch
+
+step 9):- To change branch name git branch -M   <new name>  * mostly use main *
