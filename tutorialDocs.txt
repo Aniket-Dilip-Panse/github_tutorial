@@ -106,3 +106,42 @@ step 7):- To check the link git remote -v
 step 8):- To check branch git branch
 
 step 9):- To change branch name git branch -M   <new name>  * mostly use main *
+
+step 10):- git push -u origin main
+
+
+mostly used WORKFLOW
+EXAMPLE 1 :- WORKFLOW GITHUB TO LOCAL REPOSITORY
+                 github repository
+                    |
+                    ▼
+                cloning github repository
+                    |
+                    ▼
+                changing local repository
+                    |
+                    ▼
+                adding local repository 
+                    |
+                    ▼
+                commiting local repository
+                    |
+                    ▼
+                pushing local repository on github
+
+
+GIT Branch:- It is a special branch in git.
+             It is used to keep track of changes in local repository.
+
+             creating branch always developer to develop multiple features and then merge the branch.
+
+             eg:- git branch <branch_name>
+
+             To navigate from one branch to another. ek branch se durse branch pe navigate karne ke liye
+             -->git checkout <branch_name>
+
+             To create new branch
+             -->git checkout -b <branch_name>
+
+             To delete branch.
+             -->git branch -d <branch_name>
