@@ -147,7 +147,11 @@ GIT Branch:- There is atleast one branch in git. i.e main branch.
              -->git checkout <branch_name>
              -->git switch <branch_name>
 
-             -->git checkout -b <branch_name>
+             To change branch name.
+             -->git branch -M <old_name> <new_name>
 
              To delete branch.
              -->git branch -d <branch_name>
+
+             To publish local branch on github
+             -->git push -u origin <local-branch_name>
