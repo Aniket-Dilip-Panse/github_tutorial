@@ -130,25 +130,25 @@ EXAMPLE 1 :- WORKFLOW GITHUB TO LOCAL REPOSITORY
                 pushing local repository on github
 
 
-GIT Branch:- There is atleast one branch in git. i.e main branch.
-
-             It is a special branch in git.
+GIT Branch:- It is a special branch in git.
              It is used to keep track of changes in local repository.
 
              creating branch always developer to develop multiple features and then merge the branch.
 
-             To create new branch. 
              eg:- git branch <branch_name>
-
-             To create new branch after specific commit.
-             eg:- git branch <branch_name> <commit_id>
 
              To navigate from one branch to another. ek branch se durse branch pe navigate karne ke liye
              -->git checkout <branch_name>
-             -->git switch <branch_name>
 
-             To change branch name.
-             -->git branch -M <old_name> <new_name>
+             To create new branch
+             -->git checkout -b <branch_name>
 
              To delete branch.
              -->git branch -d <branch_name>
+
+GIT Merge:- It is used to merge two         different branches.
+
+            first check the difference between two branches
+            then merge two branches.
+            -->git diff <new branch> <main branch>
+            -->git merge <new branch>
