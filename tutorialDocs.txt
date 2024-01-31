@@ -177,3 +177,10 @@ GIT DIFF:- diff between two or more branch.
            eg:- git diff <branch_name> <main branch>
 
 ========== HOW TO HANDLE MERGE CONFLICT IN GIT ==========
+
+step 1:- create new changes in main 
+step 2:- add,commit and push that changes to main branch
+step 3:- create new branch with any name.
+step 4:- add,commit and push that changes to new branch 
+======== MOST IMPORTANT==== the changes made in main branch and changes made in new branch must be on same line.
+then only the merge conflict occur. 
