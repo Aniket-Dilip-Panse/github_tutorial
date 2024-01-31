@@ -195,3 +195,9 @@ staged changes:-- means the changes are added using git add .
 
 Case 2: Commited changes(for one commit)
 --> git reset HEAD~1
+
+
+FORK:- it is a feature in git.
+       it is used to make a copy of repository.
+       a Fork is a new repository that shares code and visibility setting with the parent repository.
+       In simple term fork is a copy of repository. 
