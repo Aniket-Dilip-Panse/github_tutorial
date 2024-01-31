@@ -184,3 +184,14 @@ step 3:- create new branch with any name.
 step 4:- add,commit and push that changes to new branch 
 ======== MOST IMPORTANT==== the changes made in main branch and changes made in new branch must be on same line.
 then only the merge conflict occur. 
+
+====== Undoing changes:- bymistake we sometime make  changes which we don't have to make 
+                       and by mistake we make changes in local repository.
+                       so we have to undo that changes.
+             
+Case 1:staged changes.
+staged changes:-- means the changes are added using git add .
+--> git rest <-- file name --> 
+
+Case 2: Commited changes(for one commit)
+--> git reset HEAD~1
