@@ -155,3 +155,23 @@ GIT Branch:- There is atleast one branch in git. i.e main branch.
 
              To publish local branch on github
              -->git push -u origin <local-branch_name>
+
+GIT MERGE:- merge two or more branch into one.
+            ==== method 1 using git command ====
+           eg:- git merge <branch_name>
+
+           ==== method 2 using githhub website generating pull request====
+           eg:- step 1:- click on compare and pull request
+                step 2:- write any message on add new feature and click on create pull request
+                step3:-github check wether we can automatically merge or not.
+                       conflict may occur in that case we have to resolve it.
+                step4:-click on merge button.
+
+        ===== IMPORTANT =====
+        changes made using method 2 of merge request will change on github but not on vscode local repository.for that we need to pull command
+
+        GIT PULL COMMAND:- all content from github will be pulled into local repository.
+        eg:- git pull origin main
+
+GIT DIFF:- diff between two or more branch.
+           eg:- git diff <branch_name> <main branch>
