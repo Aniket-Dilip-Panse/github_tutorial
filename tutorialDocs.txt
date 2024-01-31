@@ -175,3 +175,5 @@ GIT MERGE:- merge two or more branch into one.
 
 GIT DIFF:- diff between two or more branch.
            eg:- git diff <branch_name> <main branch>
+
+========== HOW TO HANDLE MERGE CONFLICT IN GIT ==========
