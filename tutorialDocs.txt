@@ -145,3 +145,10 @@ GIT Branch:- It is a special branch in git.
 
              To delete branch.
              -->git branch -d <branch_name>
+
+GIT Merge:- It is used to merge two         different branches.
+
+            first check the difference between two branches
+            then merge two branches.
+            -->git diff <new branch> <main branch>
+            -->git merge <new branch>
