@@ -152,3 +152,9 @@ GIT Merge:- It is used to merge two         different branches.
             then merge two branches.
             -->git diff <new branch> <main branch>
             -->git merge <new branch>
+
+            ==== method 2 using github website====
+            create pull request.
+
+            what is pull request ?
+            -->pull request is a request to merge two different branches.
