@@ -8,9 +8,13 @@
 }
 
 body{
+<<<<<<< HEAD
     background: #414141;
     color: whitesmoke;
     letter-spacing: 0.1rem;
+=======
+    background: #f3f3f3;
+>>>>>>> main
     font-size: 14px;
     text-align: center;
 }
